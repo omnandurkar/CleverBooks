@@ -5,11 +5,12 @@ export const HeroSec = () => {
     <div className=' py-20 md:py-16   '>
       <section className="translate-y-10 md:translate-y-28 px-6 md:px-20">
         <div className="flex flex-col lg:flex-row items-center justify-center">
-          <div className="w-full lg:w-1/2 mb-8 lg:mb-0 space-y-10">
+          <div className="w-full lg:w-1/2 mb-8 lg:mb-0 space-y-10 animate-fade-right animate-once animate-delay-1000">
             <h1 className="mb-4 text-3xl font-semibold leading-tight md:text-7xl dark:text-white">
-              Every order <br /> fulfilled, <span className='bg-gradient-to-br from-pink-300 to-indigo-300 bg-clip-text text-transparent'>on time.</span>
+              Every order <br /> fulfilled, <span className='bg-gradient-to-br from-pink-300 to-indigo-300 bg-clip-text text-transparent '>on time.</span>
             </h1>
-            <p className="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl">
+            
+            <p className="  max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl">
               Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.
             </p>
             <div className="flex flex-col md:flex-row">
@@ -20,7 +21,7 @@ export const HeroSec = () => {
 
 
               <>
-                <a href="#_" className="relative inline-flex items-center justify-start  px-5 py-3 overflow-hidden font-medium transition-all bg-[#151218] border  rounded-full  group">
+                <a href="#_" className="relative inline-flex items-center justify-start  px-5 py-3 overflow-hidden font-medium transition-all bg-[#151218] border  rounded-full  group animate-rotate-y animate-twice animate-delay-1000">
                   <span className="absolute inset-0 border-0 group-hover:border-[25px] ease-in-out duration-100 transition-all border-white rounded-full"></span>
                   <span className="relative w-full text-left bg-gradient-to-br from-red-400 to-violet-500 bg-clip-text text-transparent transition-colors duration-500 ease-in-out ">Get started with CleverBooks</span>
                 </a>
@@ -29,8 +30,8 @@ export const HeroSec = () => {
 
             </div>
           </div>
-          <div className="w-full lg:w-1/2 flex justify-center ">
-            <img className='max-w-full h-auto lg:h-[500px] lg:translate-x-28  ' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg" alt="mockup" />
+          <div className="w-full lg:w-1/2 flex justify-center   ">
+            <img className='max-w-full h-auto lg:h-[500px] lg:translate-x-28  animate-pulse animate-infinite ' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg" alt="mockup" />
           </div>
         </div>
       </section>

@@ -1,7 +1,26 @@
+@import 'flowbite';
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee {
+    /* display: inline-block; */
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+
 body {
     /* background: #11111a; */
     color: aliceblue;
     /* padding-top: px; */
+    overflow-x: hidden;
 
 }
-

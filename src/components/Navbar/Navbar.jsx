@@ -6,25 +6,25 @@ import { useGSAP } from "@gsap/react";
 const Navbar = () => {
     const [state, setState] = useState(false);
 
-    // useGSAP(() => {
-    //     // GSAP animation
-    //     const tl = gsap.timeline();
+    useGSAP(() => {
+        // GSAP animation
+        const tl = gsap.timeline();
 
-    //     tl.from(".navbar-item", {
-    //         duration: 1,
-    //         opacity: 0,
-    //         y: -100,
-    //         stagger: 0.2,
-    //         ease: "back.out",
-    //     })
-    //         .from(".navbar-logo", {
-    //             duration: 1.7,
-    //             opacity: 0,
-    //             y: -100,
-    //             stagger: 0.2,
-    //             ease: "bounce.out",
-    //         });
-    // }, []);
+        tl.from(".navbar-item", {
+            duration: 1,
+            opacity: 0,
+            y: -100,
+            stagger: 0.2,
+            ease: "back.out",
+        })
+            .from(".navbar-logo", {
+                duration: 1.7,
+                opacity: 0,
+                y: -100,
+                stagger: 0.2,
+                ease: "bounce.out",
+            });
+    }, []);
 
     
 
@@ -43,11 +43,11 @@ const Navbar = () => {
        
 
         // bg-opacity-90  backdrop-filter backdrop-blur-sm -----------use this to blur the navbar
-        <nav className=" fixed top-0 left-0 bg-[#151218] text-white bg-opacity-65  w-full  shadow-lg z-50 " id='navbar'    >
+        <nav className="  fixed top-0 left-0 bg-[#151218] text-white bg-opacity-65  w-full  shadow-lg z-50 " id='navbar'    >
             <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-1">
                 <div className="flex items-center justify-between py-1 md:py-2 md:block">
                     <Link to="/" className='font-hand'>
-                        <h1 className='text-3xl  font-semibold navbar-logo'>CleverBooks</h1>
+                        <h1 className='text-3xl  font-semibold navbar-logo'>Clever Books</h1>
                     </Link>
                     <div className="md:hidden">
                         <button className="text-gray-500 hover:text-gray-800 navbar-item" onClick={() => setState(!state)}>
@@ -68,7 +68,7 @@ const Navbar = () => {
                         <div className=' justify-between items-center space-y-6 md:flex md:space-x-6 md:space-y-0 '>
 
                         {navigation.map((item, idx) => (
-                            <li key={idx} className="  hover:bg-gradient-to-r  hover: from-teal-400 font-semibold hover:to-lime-300 hover:bg-clip-text hover:text-transparent  text-slate-200 cursor-pointer navbar-item">
+                            <li key={idx} className="  hover:bg-gradient-to-r  hover:from-fuchsia-400 hover:to-indigo-400 font-semibold  hover:bg-clip-text hover:text-transparent  text-slate-200 cursor-pointer navbar-item">
                                 <Link to={item.path} className="block">
                                     {item.title}
                                 </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="block py-3 px-5 font-medium text-center text-white bg-gradient-to-br from-fuchsia-400 to-indigo-400 hover:from-yellow-200  hover:to-teal-400 hover:text-black  active:scale-90 active:shadow-none rounded-full shadow md:inline-block">
+                                    <Link to="/" className="block py-3 px-5 font-medium text-center text-white bg-gradient-to-br from-fuchsia-400 to-indigo-400 hover:from-indigo-200  hover:to-fuchsia-400 hover:text-black  active:scale-90 active:shadow-none rounded-full shadow md:inline-block">
                                         Talk To Us
                                     </Link>
                                 </li>
