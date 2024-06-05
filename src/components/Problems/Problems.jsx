@@ -47,20 +47,20 @@ const Problems = () => {
 
 
   return (
-    <div className=' pt-20'>
+    <div className=' pt-20 '>
       <div className="flex justify-center w-full -mb-28">
         <h2 className="text-2xl text-black text-center  font-bold sm:text-3xl ">
           Things your spreadsheet wishes it could do
         </h2>
       </div>
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem]  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="relative p-6 md:p-16">
-          <div className="flex  z-10  ">
+          <div className="flex   z-10  ">
             <div className="mb-10 text-black p-10 rounded-lg ">
 
 
               <nav className="grid text-black mt-5 md:mt-10 space-y-5" aria-label="Tabs" role="tablist">
-                <button type="button" className="text-start hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-1" aria-controls="content-1" role="tab" aria-selected="true">
+                <button type="button" className="text-start bg-gray-300 md:bg-transparent w-72 md:w-full hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-1" aria-controls="content-1" role="tab" aria-selected="true">
                   <span className="flex">
                     <Svg6 />
                     <span className="grow ms-6">
@@ -69,7 +69,7 @@ const Problems = () => {
                     </span>
                   </span>
                 </button>
-                <button type="button" className="text-start hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-2" aria-controls="content-2" role="tab" aria-selected="false">
+                <button type="button" className="text-start bg-gray-300 md:bg-transparent w-72 md:w-full hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-2" aria-controls="content-2" role="tab" aria-selected="false">
                   <span className="flex">
                     <Svg6 />
                     <span className="grow ms-6">
@@ -78,7 +78,7 @@ const Problems = () => {
                     </span>
                   </span>
                 </button>
-                <button type="button" className="text-start hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-3" aria-controls="content-3" role="tab" aria-selected="false">
+                <button type="button" className="text-start bg-gray-300 md:bg-transparent w-72 md:w-full hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-3" aria-controls="content-3" role="tab" aria-selected="false">
                   <span className="flex">
                     <Svg6 />
                     <span className="grow ms-6">
@@ -87,7 +87,7 @@ const Problems = () => {
                     </span>
                   </span>
                 </button>
-                <button type="button" className="text-start hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-4" aria-controls="content-4" role="tab" aria-selected="false">
+                <button type="button" className="text-start bg-gray-300 md:bg-transparent w-72 md:w-full hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-4" aria-controls="content-4" role="tab" aria-selected="false">
                   <span className="flex">
                     <Svg6 />
                     <span className="grow ms-6">
@@ -96,7 +96,7 @@ const Problems = () => {
                     </span>
                   </span>
                 </button>
-                <button type="button" className="text-start hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-5" aria-controls="content-5" role="tab" aria-selected="false">
+                <button type="button" className="text-start bg-gray-300 md:bg-transparent w-72 md:w-full hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-5" aria-controls="content-5" role="tab" aria-selected="false">
                   <span className="flex">
                     <Svg6 />
                     <span className="grow ms-6">
@@ -105,7 +105,7 @@ const Problems = () => {
                     </span>
                   </span>
                 </button>
-                <button type="button" className="text-start hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 focus: md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-6" aria-controls="content-6" role="tab" aria-selected="false">
+                <button type="button" className="text-start bg-gray-300 md:bg-transparent w-72 md:w-full hover:text-white hover:bg-gradient-to-br hover:from-fuchsia-400 hover:via-indigo-400 hover:to-red-400 duration-300 p-4 focus: md:p-5 rounded-xl focus:bg-gray-300 focus:drop-shadow-lg" data-tab="content-6" aria-controls="content-6" role="tab" aria-selected="false">
                   <span className="flex">
                     <Svg6 />
                     <span className="grow ms-6">
@@ -118,10 +118,10 @@ const Problems = () => {
 
             </div>
 
-            <div className="lg:col-span-12 items-center  flex w-screen">
-              <div className="relative">
-                <div>
-                  <div id="content-1" className="hidden" role="tabpanel" aria-labelledby="button-1">
+            <div className="lg:col-span-12 items-center flex w-screen">
+              <div className="relative ">
+                <div className='hidden md:block'>
+                  <div id="content-1" className="hidden " role="tabpanel" aria-labelledby="button-1">
                     <img className="shadow-xl drop-shadow rounded-xl p-5 py-40 bg-gradient-to-br from-fuchsia-400 via-indigo-400 to-red-400" src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f64bb2507621d0bf7da369_Demand%20forecasting-p-1080.webp" alt="Image Description" />
                   </div>
 
